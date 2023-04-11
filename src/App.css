@@ -7,6 +7,23 @@
   pointer-events: none;
 }
 
+.close{cursor: pointer;}
+
+.list{
+  border: 1px solid #ddd; 
+  max-height: 500px;
+  overflow: auto;
+  min-height: 55px;
+}
+.list > p:nth-child(even) { background: #eee; }
+
+
+
+
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-float infinite 3s ease-in-out;
@@ -18,7 +35,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
 }
 
